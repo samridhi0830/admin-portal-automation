@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="admin Portal Automation Suite" parallel="tests" thread-count="1" verbose="3">
+
+  <listeners>
+    <listener class-name="Listeners.ExtentReporterListener"/>
+    <!--listener class-name="Listeners.AnnotationTransformer"/>-->
+    <!-- Avoid referencing internal TestNG objects in listeners -->
+  </listeners>
+
+  <test name="Dashboard Page Tests">  
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.DashboardPageTest"/>
+    </classes>
+  </test>
+  
+  <test name="Login Page Tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.LoginPageTest"/>
+    </classes>
+    
+  </test>
+  
+  <!--test name="Login Page Tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Tests.LoginPageTest"/>
+    </classes>
+  </test>
+  
+  <test name="Otp Page Tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Tests.OtpPageTest"/>
+    </classes>
+  </test>-->
+
+</suite>

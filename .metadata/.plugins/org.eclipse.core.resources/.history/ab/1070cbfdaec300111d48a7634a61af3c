@@ -1,0 +1,17 @@
+package constants;
+
+public class AppConstants {
+	
+	public static final int SHORT_DEFAUTT_WAIT = 5;
+	public static final int MEDIUM_DEFAUTT_WAIT = 10;
+	public static final int LONG_DEFAUTT_WAIT = 15;
+	
+	public static final int POLLING_DEFAUTT_WAIT = 2;
+	
+	public static final String LOGIN_PAGE_TITLE="Customer Portal";
+	public static final String LOGIN_PAGE_URL= "garantie.in/login";
+	
+	
+	
+
+}

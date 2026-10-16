@@ -1,0 +1,764 @@
+2026-10-09 11:43:52 INFO  utilities.LoggerUtil - PASS: Login page title is: null
+2026-10-09 11:43:53 INFO  utilities.LoggerUtil - PASS: Login page url is: https://qa-admin-portal.garantie.in/login
+2026-10-09 11:43:53 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 11:43:53 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 11:45:38 INFO  utilities.LoggerUtil - PASS: Login page url is: https://qa-admin-portal.garantie.in/login
+2026-10-09 11:45:38 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 11:45:38 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:30:04 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:30:04 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:30:25 INFO  utilities.LoggerUtil - Total number of cards is 0
+2026-10-09 12:30:27 INFO  utilities.LoggerUtil - Total number of cards is 0
+2026-10-09 12:30:59 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:30:59 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:31:19 INFO  utilities.LoggerUtil - Total number of cards is 0
+2026-10-09 12:31:21 INFO  utilities.LoggerUtil - Total number of cards is 0
+2026-10-09 12:33:20 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:33:20 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:34:15 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 12:35:33 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:35:33 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:36:28 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 12:38:17 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:38:17 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:39:14 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 12:39:15 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 12:39:45 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:39:45 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:40:38 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 12:40:39 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 12:43:32 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:43:32 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:44:30 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 12:44:31 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 12:44:31 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 12:44:31 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 12:44:31 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 12:44:31 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 12:44:31 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 12:44:31 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 12:44:32 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 12:47:09 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:47:09 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:49:28 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:49:28 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:50:28 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 12:50:28 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 12:50:28 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 12:50:28 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 12:50:28 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 12:50:28 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 12:50:28 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 12:50:28 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 12:50:29 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 12:50:39 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:50:39 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:52:35 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:52:35 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:53:32 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 12:53:33 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 12:53:33 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 12:53:33 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 12:53:33 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 12:53:33 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 12:53:33 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 12:53:33 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 12:53:34 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 12:53:45 INFO  utilities.LoggerUtil - PASS: Login page url is: https://qa-admin-portal.garantie.in/login
+2026-10-09 12:53:45 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:53:45 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:57:01 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 12:57:01 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 12:57:53 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 12:57:53 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 12:57:53 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 12:57:53 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 12:57:53 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 12:57:53 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 12:57:53 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 12:57:53 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 12:57:54 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 14:36:18 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 14:36:18 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 14:37:49 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 14:40:19 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 14:40:19 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 14:41:17 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 14:41:17 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 14:42:14 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 14:42:15 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 14:42:15 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 14:42:15 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 14:42:15 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 14:42:15 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 14:42:15 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 14:42:15 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 14:42:16 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 14:44:05 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 14:44:05 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 14:45:02 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 14:45:02 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 14:45:02 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 14:45:02 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 14:45:02 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 14:45:02 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 14:45:02 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 14:45:02 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 14:45:03 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 14:45:09 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 1
+2026-10-09 14:46:54 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 14:46:54 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 14:47:48 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 14:47:48 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 14:47:48 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 14:47:48 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 14:47:48 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 14:47:48 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 14:47:48 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 14:47:48 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 14:47:49 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 14:52:01 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 14:52:01 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 14:52:57 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 14:52:57 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 14:52:57 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 14:52:57 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 14:52:57 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 14:52:57 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 14:52:57 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 14:52:57 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 14:52:58 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 14:54:14 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 14:54:14 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 14:55:16 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 14:55:17 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 14:55:17 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 14:55:17 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 14:55:17 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 14:55:17 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 14:55:17 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 14:55:17 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 14:55:19 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 14:56:58 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 14:56:58 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 14:57:57 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 14:57:57 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 14:57:57 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 14:57:57 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 14:57:57 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 14:57:57 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 14:57:57 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 14:57:57 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 14:57:58 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 14:58:09 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 31
+2026-10-09 15:14:16 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-09 15:14:16 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-09 15:15:11 INFO  utilities.LoggerUtil - PLANS SOLD
+1
+2026-10-09 15:15:12 INFO  utilities.LoggerUtil - TOTAL AMOUNT
+₹3,799
+2026-10-09 15:15:12 INFO  utilities.LoggerUtil - STATE MARGIN
+₹1,779
+2026-10-09 15:15:12 INFO  utilities.LoggerUtil - FINANCIER MARGIN
+₹0
+2026-10-09 15:15:12 INFO  utilities.LoggerUtil - RETAILER MARGIN
+₹570
+2026-10-09 15:15:12 INFO  utilities.LoggerUtil - VIVOINDIA MARGIN
+₹342
+2026-10-09 15:15:12 INFO  utilities.LoggerUtil - GARANTIE MARGIN
+₹1,108
+2026-10-09 15:15:12 INFO  utilities.LoggerUtil - APPROVED CLAIMS
+0/0
+2026-10-09 15:15:13 INFO  utilities.LoggerUtil - Total number of cards is 8
+2026-10-09 15:15:24 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 31
+2026-10-12 13:25:25 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 13:25:25 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 13:45:21 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 13:45:21 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 13:56:02 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 13:56:02 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 13:58:13 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 13:58:13 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 14:03:24 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 14:03:24 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 14:06:11 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 14:06:11 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 14:11:32 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 14:11:32 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 14:42:14 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 14:42:14 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 14:53:28 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 14:53:28 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 14:58:03 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 14:58:03 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 15:01:53 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 15:01:53 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 15:09:19 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 15:09:19 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 15:13:57 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 15:13:57 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 15:21:48 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 15:21:48 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 15:25:48 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 15:25:48 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 15:29:10 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 15:29:10 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 15:35:14 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 15:35:14 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 15:47:51 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 15:47:51 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 15:48:57 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-12 16:01:43 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 16:01:43 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 16:02:48 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-12 16:05:58 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 16:05:58 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 16:07:03 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-12 16:10:00 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 16:10:00 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 16:11:44 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 16:11:44 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 16:12:46 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-12 16:16:37 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 16:16:37 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 16:17:49 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-12 16:19:03 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-12 16:19:03 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-12 16:20:04 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-14 10:58:13 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 10:58:13 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 10:59:15 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-14 10:59:57 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 10:59:57 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 11:02:01 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 11:02:01 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 11:14:43 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 11:14:43 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 11:15:46 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-14 11:44:35 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 11:44:35 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 11:46:30 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 11:46:30 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 11:47:30 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-14 11:49:22 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 11:49:22 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 11:50:21 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-14 11:53:53 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 11:53:53 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 11:54:59 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-14 12:11:09 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 12:11:09 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 12:11:19 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-14 12:14:57 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 12:14:57 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 12:15:07 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-14 12:45:16 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 12:45:16 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 12:46:16 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-14 12:46:47 INFO  utilities.LoggerUtil - Total plans on listing = 34
+2026-10-14 12:46:48 INFO  utilities.LoggerUtil - Total plans in export =34
+2026-10-14 13:00:19 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 13:00:19 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 13:02:01 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 766
+2026-10-14 13:08:41 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 13:08:41 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 13:09:39 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-14 13:10:50 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 13:10:50 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 13:11:51 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-14 14:16:41 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 14:16:41 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 14:17:39 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-14 14:19:56 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 14:19:56 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 14:20:52 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 766
+2026-10-14 14:22:37 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 14:22:37 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 14:23:35 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 774
+2026-10-14 14:23:47 INFO  utilities.LoggerUtil - Total plans on listing = 774
+2026-10-14 14:23:49 INFO  utilities.LoggerUtil - Total plans in export =34
+2026-10-14 14:33:21 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 14:33:21 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 14:34:21 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 766
+2026-10-14 14:34:33 INFO  utilities.LoggerUtil - Total plans on listing = 766
+2026-10-14 14:34:36 INFO  utilities.LoggerUtil - Total plans in export =34
+2026-10-14 14:55:24 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 14:55:24 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 14:59:01 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 14:59:01 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 15:00:01 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-14 15:04:57 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 15:04:57 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 15:05:56 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-14 15:08:27 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 15:08:27 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 15:09:26 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-14 15:10:25 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 15:10:25 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 15:11:27 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-14 15:12:52 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 15:12:52 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 15:13:57 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 766
+2026-10-14 15:14:11 INFO  utilities.LoggerUtil - Total plans on listing = 766
+2026-10-14 15:14:12 INFO  utilities.LoggerUtil - Total plans in export =34
+2026-10-14 15:17:06 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 15:17:06 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 15:18:08 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 766
+2026-10-14 15:19:42 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 15:19:42 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 15:20:51 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 766
+2026-10-14 15:21:05 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-14 15:21:07 INFO  utilities.LoggerUtil - Total plans in export =34
+2026-10-14 15:22:28 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 15:22:28 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 15:23:34 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 766
+2026-10-14 15:23:46 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-14 15:23:51 INFO  utilities.LoggerUtil - Total plans in export =34
+2026-10-14 15:29:56 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-14 15:29:56 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-14 15:31:12 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 766
+2026-10-14 15:31:31 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 10:07:55 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 10:07:55 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 10:08:59 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 10:13:17 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 10:13:17 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 10:14:17 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 10:14:33 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 10:16:17 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 10:16:17 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 10:17:16 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 10:18:11 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 10:18:11 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 10:19:11 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 10:19:21 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 10:19:28 INFO  utilities.LoggerUtil - Total plans in export =0
+2026-10-15 10:27:15 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 10:27:15 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 10:28:11 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 10:28:22 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 10:28:28 INFO  utilities.LoggerUtil - Total plans in export =0
+2026-10-15 11:00:50 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 11:00:50 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 11:03:20 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 11:03:20 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 11:03:37 INFO  utilities.LoggerUtil - For Today
+2026-10-15 11:04:18 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 11:04:30 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 11:05:25 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 11:06:11 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 11:06:50 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 11:07:31 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 11:08:01 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 11:23:52 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-15 11:26:48 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-15 11:27:36 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 11:27:36 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 11:27:55 INFO  utilities.LoggerUtil - For Today
+2026-10-15 11:28:41 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 11:28:54 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 11:29:49 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 11:30:33 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 11:31:12 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 11:31:51 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 11:32:30 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 11:33:10 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-15 11:33:48 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-15 11:34:57 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 11:34:57 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 11:35:14 INFO  utilities.LoggerUtil - For Today
+2026-10-15 11:36:06 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 11:36:18 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 11:36:57 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 11:37:36 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 11:38:11 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 11:38:11 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 11:38:28 INFO  utilities.LoggerUtil - For Today
+2026-10-15 11:39:09 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 11:39:21 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 11:42:45 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 11:42:45 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 11:43:05 INFO  utilities.LoggerUtil - For Today
+2026-10-15 11:43:43 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 11:44:19 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 11:44:19 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 11:44:38 INFO  utilities.LoggerUtil - For Today
+2026-10-15 11:45:18 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 11:45:31 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 11:46:27 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 11:47:06 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 11:47:45 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 11:48:27 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 11:49:06 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 11:49:46 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-15 11:50:25 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-15 12:11:33 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 12:11:33 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 12:11:50 INFO  utilities.LoggerUtil - For Today
+2026-10-15 12:12:33 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 2
+2026-10-15 12:12:48 INFO  utilities.LoggerUtil - Total plans on listing = 2
+2026-10-15 12:12:55 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 12:13:34 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 12:14:15 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 12:14:54 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 12:15:33 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 12:16:12 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-15 12:16:50 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-15 12:20:36 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 12:20:36 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 12:20:54 INFO  utilities.LoggerUtil - For Today
+2026-10-15 12:21:35 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 2
+2026-10-15 12:21:46 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 12:21:54 INFO  utilities.LoggerUtil - Report exported successfully for Today
+2026-10-15 12:21:54 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 12:23:24 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 12:23:24 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 12:23:42 INFO  utilities.LoggerUtil - For Today
+2026-10-15 12:24:24 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 2
+2026-10-15 12:24:36 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 12:24:45 INFO  utilities.LoggerUtil - Report exported successfully for Today
+2026-10-15 12:24:50 INFO  utilities.LoggerUtil - Total plans in export =2
+2026-10-15 12:25:00 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 12:25:16 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 12:25:18 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 12:25:29 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 776
+2026-10-15 12:25:40 INFO  utilities.LoggerUtil - Total plans on listing = 776
+2026-10-15 12:25:51 INFO  utilities.LoggerUtil - Total plans in export =776
+2026-10-15 12:26:00 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 12:26:12 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 816
+2026-10-15 12:26:20 INFO  utilities.LoggerUtil - Total plans on listing = 816
+2026-10-15 12:26:31 INFO  utilities.LoggerUtil - Total plans in export =816
+2026-10-15 12:26:40 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 12:26:52 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-15 12:27:00 INFO  utilities.LoggerUtil - Total plans on listing = 34
+2026-10-15 12:27:06 INFO  utilities.LoggerUtil - Report exported successfully for Last Week
+2026-10-15 12:27:11 INFO  utilities.LoggerUtil - Total plans in export =34
+2026-10-15 12:27:20 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 12:27:36 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 302
+2026-10-15 12:27:47 INFO  utilities.LoggerUtil - Total plans on listing = 302
+2026-10-15 12:28:00 INFO  utilities.LoggerUtil - Total plans in export =302
+2026-10-15 12:28:08 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-15 12:28:21 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 5139
+2026-10-15 12:28:29 INFO  utilities.LoggerUtil - Total plans on listing = 5138
+2026-10-15 12:28:40 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-15 12:37:02 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 12:37:02 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 12:37:20 INFO  utilities.LoggerUtil - For Today
+2026-10-15 12:38:03 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 2
+2026-10-15 12:38:22 INFO  utilities.LoggerUtil - Total plans on listing = 2
+2026-10-15 12:38:28 INFO  utilities.LoggerUtil - Total plans in export =2
+2026-10-15 12:38:36 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 12:38:50 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 12:39:04 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 12:39:25 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 12:39:25 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 12:39:43 INFO  utilities.LoggerUtil - For Today
+2026-10-15 12:40:23 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 2
+2026-10-15 12:40:41 INFO  utilities.LoggerUtil - Total plans on listing = 2
+2026-10-15 12:40:46 INFO  utilities.LoggerUtil - Total plans in export =2
+2026-10-15 12:40:55 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 12:41:06 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 12:41:07 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 12:41:18 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 776
+2026-10-15 12:41:32 INFO  utilities.LoggerUtil - Total plans on listing = 776
+2026-10-15 12:41:39 INFO  utilities.LoggerUtil - Total plans in export =776
+2026-10-15 12:41:48 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 12:42:00 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 816
+2026-10-15 12:42:13 INFO  utilities.LoggerUtil - Total plans on listing = 816
+2026-10-15 12:42:19 INFO  utilities.LoggerUtil - Total plans in export =816
+2026-10-15 12:42:27 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 12:42:38 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-15 12:42:52 INFO  utilities.LoggerUtil - Total plans on listing = 34
+2026-10-15 12:42:57 INFO  utilities.LoggerUtil - Total plans in export =34
+2026-10-15 12:43:05 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 12:43:19 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 302
+2026-10-15 12:43:32 INFO  utilities.LoggerUtil - Total plans on listing = 302
+2026-10-15 12:43:37 INFO  utilities.LoggerUtil - Total plans in export =302
+2026-10-15 12:43:45 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-15 12:43:56 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 5139
+2026-10-15 12:44:09 INFO  utilities.LoggerUtil - Total plans on listing = 5138
+2026-10-15 12:44:15 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-15 12:46:14 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 12:46:14 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 12:48:08 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 12:48:08 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 12:48:27 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 12:49:07 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 12:51:25 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 12:51:25 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 12:51:43 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 12:52:24 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 13:00:05 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 13:00:05 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 13:00:22 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 13:01:04 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 13:01:22 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:01:28 INFO  utilities.LoggerUtil - Total plans in export =0
+2026-10-15 13:02:16 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 13:02:16 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 13:02:34 INFO  utilities.LoggerUtil - For Today
+2026-10-15 13:03:12 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 13:03:37 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 13:03:37 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 13:03:55 INFO  utilities.LoggerUtil - For Today
+2026-10-15 13:04:35 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 2
+2026-10-15 13:04:51 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:04:58 INFO  utilities.LoggerUtil - Total plans in export =2
+2026-10-15 13:05:06 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 13:05:20 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 13:05:35 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:05:35 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 13:06:05 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 13:06:05 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 13:06:23 INFO  utilities.LoggerUtil - For Today
+2026-10-15 13:07:04 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 2
+2026-10-15 13:07:19 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:07:27 INFO  utilities.LoggerUtil - Total plans in export =2
+2026-10-15 13:07:35 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 13:07:47 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 13:08:00 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:08:06 INFO  utilities.LoggerUtil - Total plans in export =0
+2026-10-15 13:08:14 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 13:08:25 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 776
+2026-10-15 13:08:39 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:08:44 INFO  utilities.LoggerUtil - Total plans in export =776
+2026-10-15 13:08:53 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 13:09:04 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 816
+2026-10-15 13:09:17 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:09:22 INFO  utilities.LoggerUtil - Total plans in export =816
+2026-10-15 13:09:31 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 13:09:42 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-15 13:09:55 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:10:00 INFO  utilities.LoggerUtil - Total plans in export =34
+2026-10-15 13:10:09 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 13:10:21 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 302
+2026-10-15 13:10:34 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:10:41 INFO  utilities.LoggerUtil - Total plans in export =302
+2026-10-15 13:10:50 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-15 13:11:01 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 5139
+2026-10-15 13:11:14 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:11:19 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-15 13:13:41 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 13:13:41 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 13:19:40 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 13:19:40 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 13:19:59 INFO  utilities.LoggerUtil - For Today
+2026-10-15 13:20:41 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 2
+2026-10-15 13:21:01 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 13:21:08 INFO  utilities.LoggerUtil - Total plans in export =2
+2026-10-15 13:21:17 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 13:22:47 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 13:22:47 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 13:23:05 INFO  utilities.LoggerUtil - For Today
+2026-10-15 13:23:46 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 2
+2026-10-15 13:24:07 INFO  utilities.LoggerUtil - Total plans on listing = 2
+2026-10-15 13:24:14 INFO  utilities.LoggerUtil - Total plans in export =2
+2026-10-15 13:24:23 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 13:24:34 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 13:24:51 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 13:26:05 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 13:27:07 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 13:28:15 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 13:29:21 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-15 13:30:24 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-15 14:24:01 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 14:24:01 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 14:24:18 INFO  utilities.LoggerUtil - For Today
+2026-10-15 14:24:58 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 3
+2026-10-15 14:25:19 INFO  utilities.LoggerUtil - Total plans on listing = 3
+2026-10-15 14:25:26 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 14:26:29 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 14:26:52 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 14:26:52 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 14:27:10 INFO  utilities.LoggerUtil - For Today
+2026-10-15 14:27:50 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 3
+2026-10-15 14:28:10 INFO  utilities.LoggerUtil - Total plans on listing = 3
+2026-10-15 14:28:18 INFO  utilities.LoggerUtil - Total plans in export =3
+2026-10-15 14:28:26 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 14:28:37 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 14:28:54 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 14:30:37 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 14:30:37 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 14:31:53 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 14:31:53 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 14:32:12 INFO  utilities.LoggerUtil - For Today
+2026-10-15 14:32:52 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 3
+2026-10-15 14:33:13 INFO  utilities.LoggerUtil - Total plans on listing = 3
+2026-10-15 14:33:21 INFO  utilities.LoggerUtil - Total plans in export =3
+2026-10-15 14:33:30 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 14:33:43 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 14:34:00 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 14:34:13 INFO  utilities.LoggerUtil - Total plans in export =0
+2026-10-15 14:34:22 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 14:34:36 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 777
+2026-10-15 14:34:53 INFO  utilities.LoggerUtil - Total plans on listing = 777
+2026-10-15 14:35:00 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 14:36:14 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 14:37:26 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 14:38:42 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 14:38:42 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 14:39:00 INFO  utilities.LoggerUtil - For Today
+2026-10-15 14:40:10 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 14:40:49 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 14:41:18 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 14:41:18 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 14:41:36 INFO  utilities.LoggerUtil - For Today
+2026-10-15 14:42:31 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 14:42:50 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 14:42:50 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 14:43:09 INFO  utilities.LoggerUtil - For Today
+2026-10-15 14:43:50 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 3
+2026-10-15 14:44:11 INFO  utilities.LoggerUtil - Total plans on listing = 3
+2026-10-15 14:44:18 INFO  utilities.LoggerUtil - Total plans in export =3
+2026-10-15 14:44:26 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 14:44:40 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 14:44:56 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 14:45:07 INFO  utilities.LoggerUtil - Total plans in export =0
+2026-10-15 14:45:16 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 14:45:29 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 777
+2026-10-15 14:45:45 INFO  utilities.LoggerUtil - Total plans on listing = 777
+2026-10-15 14:45:51 INFO  utilities.LoggerUtil - Total plans in export =777
+2026-10-15 14:45:59 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 14:46:10 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 817
+2026-10-15 14:46:27 INFO  utilities.LoggerUtil - Total plans on listing = 817
+2026-10-15 14:46:44 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 14:47:53 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 14:48:56 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-15 14:49:59 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-15 14:52:17 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 14:52:17 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 14:52:35 INFO  utilities.LoggerUtil - For Today
+2026-10-15 14:53:46 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 14:54:25 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 14:55:17 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 14:55:17 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 14:55:33 INFO  utilities.LoggerUtil - For Today
+2026-10-15 14:56:30 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 14:57:08 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 14:57:46 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 14:58:20 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 14:58:20 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 14:58:38 INFO  utilities.LoggerUtil - For Today
+2026-10-15 14:59:19 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 3
+2026-10-15 14:59:40 INFO  utilities.LoggerUtil - Total plans on listing = 3
+2026-10-15 14:59:47 INFO  utilities.LoggerUtil - Total plans in export =3
+2026-10-15 14:59:56 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 15:00:07 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 15:00:24 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 15:00:36 INFO  utilities.LoggerUtil - Total plans in export =0
+2026-10-15 15:00:45 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 15:01:00 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 777
+2026-10-15 15:01:16 INFO  utilities.LoggerUtil - Total plans on listing = 777
+2026-10-15 15:01:24 INFO  utilities.LoggerUtil - Total plans in export =777
+2026-10-15 15:01:33 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 15:02:17 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 15:02:55 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-15 15:02:55 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-15 15:03:13 INFO  utilities.LoggerUtil - For Today
+2026-10-15 15:03:55 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 3
+2026-10-15 15:04:16 INFO  utilities.LoggerUtil - Total plans on listing = 3
+2026-10-15 15:04:22 INFO  utilities.LoggerUtil - Total plans in export =3
+2026-10-15 15:04:32 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-15 15:04:46 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-15 15:05:03 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-15 15:05:08 INFO  utilities.LoggerUtil - Total plans in export =0
+2026-10-15 15:05:16 INFO  utilities.LoggerUtil - For This Week
+2026-10-15 15:05:29 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 777
+2026-10-15 15:05:45 INFO  utilities.LoggerUtil - Total plans on listing = 777
+2026-10-15 15:05:51 INFO  utilities.LoggerUtil - Total plans in export =777
+2026-10-15 15:05:59 INFO  utilities.LoggerUtil - For This Month
+2026-10-15 15:06:10 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 817
+2026-10-15 15:06:27 INFO  utilities.LoggerUtil - Total plans on listing = 817
+2026-10-15 15:06:44 INFO  utilities.LoggerUtil - Total plans in export =817
+2026-10-15 15:06:53 INFO  utilities.LoggerUtil - For Last Week
+2026-10-15 15:07:08 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 34
+2026-10-15 15:07:24 INFO  utilities.LoggerUtil - Total plans on listing = 34
+2026-10-15 15:07:32 INFO  utilities.LoggerUtil - Total plans in export =34
+2026-10-15 15:07:42 INFO  utilities.LoggerUtil - For Last Month
+2026-10-15 15:07:56 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 302
+2026-10-15 15:08:13 INFO  utilities.LoggerUtil - Total plans on listing = 302
+2026-10-15 15:08:20 INFO  utilities.LoggerUtil - Total plans in export =302
+2026-10-15 15:08:28 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-15 15:08:40 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 5140
+2026-10-15 15:08:57 INFO  utilities.LoggerUtil - Total plans on listing = 5139
+2026-10-15 15:09:14 INFO  utilities.LoggerUtil - For Last FY 25-26

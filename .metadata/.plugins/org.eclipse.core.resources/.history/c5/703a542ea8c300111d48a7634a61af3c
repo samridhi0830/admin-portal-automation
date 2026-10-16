@@ -1,0 +1,49 @@
+package Base;
+
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+
+
+
+
+import Pages.LoginPage;
+import factory.AdminDriverFactory;
+
+
+
+public class BaseTest {
+	protected WebDriver driver;
+	protected Properties prop;
+	AdminDriverFactory df;
+	protected LoginPage loginPage;
+
+	
+	//@Parameters({"browserName"})
+	@BeforeTest
+	public void setup() {
+		df=new AdminDriverFactory();
+		prop=df.initProp();
+		/*if(browser!=null) {
+			prop.setProperty("browser", browser);
+		}*/
+		
+		
+		driver=df.initDriver(prop);
+		loginPage=new LoginPage(driver);
+		
+		
+		
+	}
+	
+	
+	@AfterTest
+	public void tearDown() {
+		df.quitDriver();
+	}
+}

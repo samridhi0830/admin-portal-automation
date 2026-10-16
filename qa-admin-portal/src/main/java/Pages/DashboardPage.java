@@ -1,0 +1,88 @@
+package Pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import constants.AppConstants;
+import utilities.ElementUtils;
+import utilities.LoggerUtil;
+
+public class DashboardPage {
+
+	private WebDriver driver;
+	private ElementUtils eleUtil;
+	
+	public DashboardPage(WebDriver driver) {
+		this.driver=driver;
+		eleUtil=new ElementUtils(this.driver);
+	}
+	
+	private By heading=By.xpath("//div[@class='display-between sticky top-0 bg-priWhite z-10 py-2']//h3");
+	private By cards=By.xpath("//div[@class='topCard']");
+	private By planSold=By.xpath("((//div[@class='topCard'])[1]//p)[2]");
+	private By dateDropDownOptions=By.xpath("//li//span//p[@class='dateClass']");
+	private By dateDropDown=By.xpath("//a[@class='ant-dropdown-trigger customBtn']");
+	private By plans=By.xpath("//span[@class='ant-menu-title-content' and text()='Plans']");
+	private By allPlans=By.xpath("//span[@class='ant-menu-title-content' and text()='All Plans']");
+	
+	
+	
+	public int cardCount() {
+		eleUtil.waitForVisibilityOfElement(heading, AppConstants.LONG_DEFAUTT_WAIT);
+		List<WebElement> cardsList=eleUtil.waitForVisibilityOfElements(cards, AppConstants.LONG_DEFAUTT_WAIT);
+		int size=cardsList.size();
+		LoggerUtil.info("Total number of cards is "+ size);
+		return size;
+	}
+	public void cards() {
+		List<WebElement> cardsList=eleUtil.waitForVisibilityOfElements(cards, AppConstants.LONG_DEFAUTT_WAIT);
+		for(WebElement card:cardsList) {
+			LoggerUtil.info(card.getText());
+			
+		}
+		
+		
+	}
+	
+	public void selectDateFilter(String date) throws InterruptedException {
+		Thread.sleep(8000);
+		eleUtil.safeClick(dateDropDown);
+		By Date=By.xpath("//li//span//p[text()='"+date+"']");
+		eleUtil.safeClick(Date);
+		/*List<WebElement> dateList=eleUtil.getElements(dateDropDownOptions);
+		
+		for(WebElement e:dateList) {
+			String option=e.getText();
+			System.out.println(option);
+			if(option.equals(date)) {
+				System.out.println("in if block");
+				e.click();
+				break;
+			}
+			
+		}*/
+		
+	}
+	public int planSold() {
+		String TotalPlanSold=eleUtil.waitForVisibilityOfElement(planSold, AppConstants.LONG_DEFAUTT_WAIT).getText();
+		LoggerUtil.info("Plan sold count on dashboard = "+ TotalPlanSold);
+		int count=Integer.parseInt(TotalPlanSold);
+		return count;
+	}
+	
+	public allPlanPage moveToPlansPage() throws InterruptedException {
+		List<WebElement> l1=eleUtil.getElements(allPlans);
+		if(l1.size()==0) {
+		eleUtil.safeClick(plans);
+		Thread.sleep(3000);
+		}
+		eleUtil.safeClick(allPlans);
+		return new allPlanPage(driver);
+		
+	}
+	
+	
+}

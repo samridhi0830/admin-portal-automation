@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-admin_Portal_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">admin Portal Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-admin_Portal_Automation_Suite" class="navigator-link ">
+                    <span>testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-admin_Portal_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-admin_Portal_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-admin_Portal_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-admin_Portal_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-admin_Portal_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-admin_Portal_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-admin_Portal_Automation_Suite" class="hide-methods failed suite-admin_Portal_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-admin_Portal_Automation_Suite -->
+                      <a href="#" panel-name="suite-admin_Portal_Automation_Suite" class="show-methods failed suite-admin_Portal_Automation_Suite"> (show)</a> <!-- show-methods failed suite-admin_Portal_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-admin_Portal_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-admin_Portal_Automation_Suite" title="tests.PlanPageTest" class="method navigator-link" hash-for-method="allPlanCountTest(Last FY 25-26)">allPlanCountTest(Last FY 25-26)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-admin_Portal_Automation_Suite" title="tests.PlanPageTest" class="method navigator-link" hash-for-method="allPlanCountTest(This FY 26-27)">allPlanCountTest(This FY 26-27)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-admin_Portal_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-admin_Portal_Automation_Suite" class="hide-methods passed suite-admin_Portal_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-admin_Portal_Automation_Suite -->
+                      <a href="#" panel-name="suite-admin_Portal_Automation_Suite" class="show-methods passed suite-admin_Portal_Automation_Suite"> (show)</a> <!-- show-methods passed suite-admin_Portal_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-admin_Portal_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-admin_Portal_Automation_Suite" title="tests.PlanPageTest" class="method navigator-link" hash-for-method="allPlanCountTest(Today)">allPlanCountTest(Today)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-admin_Portal_Automation_Suite" title="tests.PlanPageTest" class="method navigator-link" hash-for-method="allPlanCountTest(This Week)">allPlanCountTest(This Week)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-admin_Portal_Automation_Suite" title="tests.PlanPageTest" class="method navigator-link" hash-for-method="allPlanCountTest(This Month)">allPlanCountTest(This Month)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-admin_Portal_Automation_Suite" title="tests.PlanPageTest" class="method navigator-link" hash-for-method="allPlanCountTest(Last Week)">allPlanCountTest(Last Week)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-admin_Portal_Automation_Suite" title="tests.PlanPageTest" class="method navigator-link" hash-for-method="allPlanCountTest(Last Month)">allPlanCountTest(Last Month)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-admin_Portal_Automation_Suite" title="tests.PlanPageTest" class="method navigator-link" hash-for-method="allPlanCountTest(Yesterday)">allPlanCountTest(Yesterday)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-admin_Portal_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-admin_Portal_Automation_Suite" class="panel admin_Portal_Automation_Suite">
+          <div class="suite-admin_Portal_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.PlanPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="allPlanCountTest(Last FY 25-26)">
+                  </a> <!-- allPlanCountTest(Last FY 25-26) -->
+                  <span class="method-name">allPlanCountTest</span>
+                  <span class="parameters">(Last FY 25-26)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;ant-dropdown-trigger customBtn&apos;]&quot;}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60152}, goog:processID: 21334, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60152/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cba2648bef9ce89bdb1c1018756fba6f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:52)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allPlanCountTest(This FY 26-27)">
+                  </a> <!-- allPlanCountTest(This FY 26-27) -->
+                  <span class="method-name">allPlanCountTest</span>
+                  <span class="parameters">(This FY 26-27)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: CSV file not found!
+	at Pages.allPlanPage.getPlanCountFromCSV(allPlanPage.java:119)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-admin_Portal_Automation_Suite-class-failed -->
+          <div class="suite-admin_Portal_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PlanPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="allPlanCountTest(Today)">
+                  </a> <!-- allPlanCountTest(Today) -->
+                  <span class="method-name">allPlanCountTest</span>
+                  <span class="parameters">(Today)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allPlanCountTest(This Week)">
+                  </a> <!-- allPlanCountTest(This Week) -->
+                  <span class="method-name">allPlanCountTest</span>
+                  <span class="parameters">(This Week)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allPlanCountTest(This Month)">
+                  </a> <!-- allPlanCountTest(This Month) -->
+                  <span class="method-name">allPlanCountTest</span>
+                  <span class="parameters">(This Month)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allPlanCountTest(Last Week)">
+                  </a> <!-- allPlanCountTest(Last Week) -->
+                  <span class="method-name">allPlanCountTest</span>
+                  <span class="parameters">(Last Week)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allPlanCountTest(Last Month)">
+                  </a> <!-- allPlanCountTest(Last Month) -->
+                  <span class="method-name">allPlanCountTest</span>
+                  <span class="parameters">(Last Month)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allPlanCountTest(Yesterday)">
+                  </a> <!-- allPlanCountTest(Yesterday) -->
+                  <span class="method-name">allPlanCountTest</span>
+                  <span class="parameters">(Yesterday)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-admin_Portal_Automation_Suite-class-passed -->
+        </div> <!-- panel admin_Portal_Automation_Suite -->
+        <div panel-name="test-xml-admin_Portal_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/toffee/eclipse-workspace/Admin_portal_automation/qa-admin-portal/src/test/Resources/test_runners/testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;admin Portal Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listeners.ExtentReporterListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Number of plan comperison&quot; verbose=&quot;3&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.PlanPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Number of plan comperison --&gt;
+&lt;/suite&gt; &lt;!-- admin Portal Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-admin_Portal_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for admin Portal Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Number of plan comperison (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-admin_Portal_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for admin Portal Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-admin_Portal_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for admin Portal Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_admin_Portal_Automation_Suite');
+function tableData_admin_Portal_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'allPlanCountTest')
+data.setCell(0, 2, 'tests.PlanPageTest')
+data.setCell(0, 3, 78698);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'allPlanCountTest')
+data.setCell(1, 2, 'tests.PlanPageTest')
+data.setCell(1, 3, 53572);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'allPlanCountTest')
+data.setCell(2, 2, 'tests.PlanPageTest')
+data.setCell(2, 3, 49003);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'allPlanCountTest')
+data.setCell(3, 2, 'tests.PlanPageTest')
+data.setCell(3, 3, 46697);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'allPlanCountTest')
+data.setCell(4, 2, 'tests.PlanPageTest')
+data.setCell(4, 3, 45499);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'allPlanCountTest')
+data.setCell(5, 2, 'tests.PlanPageTest')
+data.setCell(5, 3, 44389);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'allPlanCountTest')
+data.setCell(6, 2, 'tests.PlanPageTest')
+data.setCell(6, 3, 42675);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'allPlanCountTest')
+data.setCell(7, 2, 'tests.PlanPageTest')
+data.setCell(7, 3, 42097);
+window.suiteTableData['admin_Portal_Automation_Suite']= { tableData: data, tableDiv: 'times-div-admin_Portal_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-admin_Portal_Automation_Suite">
+              </div> <!-- times-div-admin_Portal_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-admin_Portal_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for admin Portal Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-admin_Portal_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-admin_Portal_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PlanPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">dashageSetup</span>
+                <span class="method-start">10876 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">allPlanCountTest(Today)</span>
+                <span class="method-start">29599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allPlanCountTest(Yesterday)</span>
+                <span class="method-start">108352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allPlanCountTest(This Week)</span>
+                <span class="method-start">152745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allPlanCountTest(This Month)</span>
+                <span class="method-start">195424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allPlanCountTest(Last Week)</span>
+                <span class="method-start">249001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allPlanCountTest(Last Month)</span>
+                <span class="method-start">298009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">allPlanCountTest(This FY 26-27)</span>
+                <span class="method-start">344712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">allPlanCountTest(Last FY 25-26)</span>
+                <span class="method-start">390237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">432351 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
