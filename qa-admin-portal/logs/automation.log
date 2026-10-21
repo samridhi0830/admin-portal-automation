@@ -762,3 +762,9 @@
 2026-10-15 15:08:40 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 5140
 2026-10-15 15:08:57 INFO  utilities.LoggerUtil - Total plans on listing = 5139
 2026-10-15 15:09:14 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-21 11:11:00 INFO  utilities.LoggerUtil - Email is : admin@garantie.in
+2026-10-21 11:11:00 INFO  utilities.LoggerUtil - Password is : Garantie@2
+2026-10-21 11:11:00 INFO  utilities.LoggerUtil - For Today
+2026-10-21 11:11:09 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
+2026-10-21 11:11:28 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-21 11:11:33 INFO  utilities.LoggerUtil - For Yesterday

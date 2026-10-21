@@ -1,0 +1,4 @@
+tests/LoginPageTest.class
+Base/BaseTest.class
+tests/PlanPageTest.class
+tests/DashboardPageTest.class
