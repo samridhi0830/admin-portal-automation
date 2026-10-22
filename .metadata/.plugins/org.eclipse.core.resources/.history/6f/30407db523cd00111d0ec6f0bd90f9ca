@@ -1,0 +1,158 @@
+package Pages;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.util.List;
+import java.util.stream.Stream;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import constants.AppConstants;
+import exceptions.FrameworkException;
+import utilities.ElementUtils;
+import utilities.LoggerUtil;
+
+public class allPlanPage {
+
+	
+	private WebDriver driver;
+	private ElementUtils eleUtil;
+	
+	public allPlanPage(WebDriver driver) {
+		this.driver=driver;
+		eleUtil=new ElementUtils(this.driver);
+	}
+	
+	
+	private By planRows=By.xpath("//td[@class='ant-table-cell']//ancestor::tr");
+	private By nextPage=By.xpath("//li[@title='Next Page']");
+	private By exportBtn=By.xpath("//span[@aria-label='export']");
+	private By disabledNextBtn=By.xpath("//li[@class='ant-pagination-next ant-pagination-disabled']");
+	private By exportSuccessMsg=By.xpath("//div[text()='Data Exported Successfully']");
+	private By exportFailedMsg=By.xpath("//div[text()='Data Export Failed']");
+	
+	
+	public int getPlanCount() throws InterruptedException {
+		//int i=1;
+		Thread.sleep(8000);
+		List<WebElement> allPlanCountPage=eleUtil.safeGetWebElement(By.xpath("//p[contains(normalize-space(.),'Showing')]"));
+		int count=allPlanCountPage.size();
+		System.out.println("........"+count);
+		boolean isDisplayed = allPlanCountPage.stream()
+		        .anyMatch(WebElement::isDisplayed);
+		/*System.out.println(allPlanCountPage.size());
+		Thread.sleep(5000);
+		while(!eleUtil.getElement(nextPage)
+	               .getAttribute("aria-disabled")
+	               .equals("true")) {
+			Thread.sleep(5000);
+			System.out.println("I am in while loop");
+			eleUtil.doClick(nextPage);
+			Thread.sleep(5000);
+			List<WebElement> l2=eleUtil.safeGetWebElement(planRows);
+			count=count+l2.size();
+			
+			
+		}*/
+		Thread.sleep(5000);
+		if(count==0) {
+			return 0;
+		}
+		else{
+		String text = driver.findElement(
+			    By.xpath("//p[contains(normalize-space(.),'Showing')]")
+			).getText();
+		
+			String totalCount = text.replaceAll(".* of\\s*", "");
+
+			System.out.println(totalCount);
+			
+			int plancount=Integer.parseInt(totalCount);
+			
+		return plancount;}
+		
+	}
+	public void clearDownloadFolder() {
+
+	    String downloadPath =
+	    		"/Users/toffee/eclipse-workspace/Admin_portal_automation/qa-admin-portal/Downloads";
+
+	    File folder = new File(downloadPath);
+
+	    if (folder.exists()) {
+	        File[] files = folder.listFiles();
+
+	        if (files != null) {
+	            for (File file : files) {
+	                if (file.isFile() && !file.delete()) {
+	                    throw new RuntimeException(
+	                            "Unable to delete: " + file.getName());
+	                }
+	            }
+	        }
+	    }
+	}
+	
+	public void clickExportBtn(String date) throws InterruptedException {
+		
+		eleUtil.doClick(exportBtn);
+		
+	}
+	
+	public int getPlanCountFromCSV() throws IOException {
+
+	    String downloadPath = "/Users/toffee/eclipse-workspace/Admin_portal_automation/qa-admin-portal/Downloads";
+
+	    File folder = new File(downloadPath);
+	    
+
+	    // Find downloaded CSV files
+	    File[] csvFiles = folder.listFiles(
+	        (dir, name) -> name.endsWith(".csv")
+	    );
+	    
+
+	    if (csvFiles == null || csvFiles.length == 0) {
+	        throw new RuntimeException("CSV file not found!");
+	    }
+	    
+
+	    // Get the CSV file
+	    File csvFile = csvFiles[0];
+
+	    System.out.println("CSV File: " + csvFile.getAbsolutePath());
+	    
+
+	    // Count plans, excluding the header row
+	    long planCount;
+
+	    try (Stream<String> lines = Files.lines(csvFile.toPath())) {
+	        planCount = Math.max(0, lines.count() - 1);
+	    }
+	    
+
+	    System.out.println("Total plans in CSV: " + planCount);
+	    
+
+	    return (int) planCount;
+	    
+	}
+	
+	public DashboardPage returnToDashboardHomePage() throws InterruptedException {
+		List<WebElement> l1=eleUtil.getElements(By.xpath("//span[text()='Home']"));
+		System.out.println(l1.size());
+		if(l1.size()==0) {
+		eleUtil.doClick(By.xpath("//span[text()='Dashboard']"));
+		Thread.sleep(3000);
+		eleUtil.doClick(By.xpath("//span[text()='Home']"));
+		}
+		if(l1.size()!=0) {
+		eleUtil.safeClick(By.xpath("//span[text()='Home']"));
+		}
+		return new DashboardPage(driver);
+	}
+	
+}

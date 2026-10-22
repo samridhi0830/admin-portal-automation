@@ -45,7 +45,25 @@ public class optionsManager {
 		fo = new FirefoxOptions();
 		if(Boolean.parseBoolean(prop.getProperty("headless").trim())) fo.addArguments("--headless");
 		if(Boolean.parseBoolean(prop.getProperty("incognito").trim())) fo.addArguments("--incognito");
-		
+		 // Download Directory Configuration
+	    String downloadPath =
+	        "/Users/toffee/eclipse-workspace/Admin_portal_automation/qa-admin-portal/Downloads";
+
+	    fo.addPreference("browser.download.folderList", 2);
+	    fo.addPreference("browser.download.dir", downloadPath);
+
+	    // Download CSV and other files without prompting
+	    fo.addPreference("browser.download.useDownloadDir", true);
+	    fo.addPreference("browser.download.alwaysOpenPanel", false);
+
+	    // Download CSV files automatically
+	    fo.addPreference(
+	        "browser.helperApps.neverAsk.saveToDisk",
+	        "text/csv,application/csv,application/octet-stream"
+	    );
+
+	    // Do not open downloaded files in Firefox
+	    fo.addPreference("pdfjs.disabled", true);
 		return fo;}
 	
 	public EdgeOptions getEdgeOptions() {

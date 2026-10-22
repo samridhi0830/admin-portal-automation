@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.Duration;
 import java.util.Properties;
 import java.util.logging.FileHandler;
 
@@ -59,6 +60,7 @@ public class AdminDriverFactory {
 		getDriver().get(claimProps.getProperty("claim-url"));
 		getDriver().manage().window().maximize();
 		getDriver().manage().deleteAllCookies();
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
 		return getDriver();
 	}
 	
@@ -71,7 +73,8 @@ public class AdminDriverFactory {
 	public Properties initProp() {
 		claimProps=new Properties();
 		try {
-			FileInputStream ip=new FileInputStream("./src/test/Resources/config/config.qa.properties");
+			//FileInputStream ip=new FileInputStream("./src/test/Resources/config/config.qa.properties");
+			FileInputStream ip=new FileInputStream("./src/test/Resources/config/config.prod.properties");
 			//InputStream ip=getClass().getClassLoader().getResourceAsStream("config/claim.config.qa.properties");
 			claimProps.load(ip);
 		} catch (FileNotFoundException e) {

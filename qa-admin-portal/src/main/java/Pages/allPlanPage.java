@@ -57,7 +57,7 @@ public class allPlanPage {
 			
 			
 		}*/
-		Thread.sleep(5000);
+		Thread.sleep(15000);
 		if(count==0) {
 			return 0;
 		}
@@ -129,13 +129,24 @@ public class allPlanPage {
 	    // Count plans, excluding the header row
 	    long planCount;
 
-	    try (Stream<String> lines = Files.lines(csvFile.toPath())) {
+	    /*try (Stream<String> lines = Files.lines(csvFile.toPath())) {
 	        planCount = Math.max(0, lines.count() - 1);
 	    }
 	    
 
 	    System.out.println("Total plans in CSV: " + planCount);
+	    */
 	    
+	    try (Stream<String> lines = Files.lines(csvFile.toPath())) {
+	        List<String> allLines = lines.toList();
+
+	        System.out.println("Total lines including header: " + allLines.size());
+	        System.out.println("Header: " + allLines.get(0));
+	        System.out.println("First data row: " + allLines.get(1));
+	        System.out.println("Last data row: " + allLines.get(allLines.size() - 1));
+
+	        planCount = Math.max(0, allLines.size() - 1);
+	    }
 
 	    return (int) planCount;
 	    
@@ -145,10 +156,13 @@ public class allPlanPage {
 		List<WebElement> l1=eleUtil.getElements(By.xpath("//span[text()='Home']"));
 		System.out.println(l1.size());
 		if(l1.size()==0) {
-		eleUtil.safeClick(By.xpath("//span[text()='Dashboard']"));
+		eleUtil.doClick(By.xpath("//span[text()='Dashboard']"));
 		Thread.sleep(3000);
+		eleUtil.doClick(By.xpath("//span[text()='Home']"));
 		}
+		if(l1.size()!=0) {
 		eleUtil.safeClick(By.xpath("//span[text()='Home']"));
+		}
 		return new DashboardPage(driver);
 	}
 	

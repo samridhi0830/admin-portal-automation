@@ -46,11 +46,11 @@ public class PlanPageTest extends BaseTest {
 		if(date.equals("This FY 26-27") || date.equals("Last FY 25-26")) {
 			Thread.sleep(10000);
 		}
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		int PlanCountInExport= planPage.getPlanCountFromCSV();
 		LoggerUtil.info("Total plans in export =" +PlanCountInExport);
-		Thread.sleep(8000);
 		planPage.returnToDashboardHomePage();
+		//Thread.sleep(5000);
 		Boolean flag;
 		if(planSoldOnHomePageCard==planCountInListing && PlanCountInExport==planSoldOnHomePageCard) {
 			flag=true;

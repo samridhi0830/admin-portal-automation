@@ -768,3 +768,244 @@
 2026-10-21 11:11:09 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 0
 2026-10-21 11:11:28 INFO  utilities.LoggerUtil - Total plans on listing = 0
 2026-10-21 11:11:33 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 11:49:16 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 11:49:16 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 11:49:36 INFO  utilities.LoggerUtil - For Today
+2026-10-21 11:50:19 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 730
+2026-10-21 11:50:40 INFO  utilities.LoggerUtil - Total plans on listing = 731
+2026-10-21 11:50:40 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 11:51:44 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 11:52:57 INFO  utilities.LoggerUtil - For This Month
+2026-10-21 11:53:31 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 11:53:31 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 11:53:51 INFO  utilities.LoggerUtil - For Today
+2026-10-21 11:55:19 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 11:56:06 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 11:57:12 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 11:57:12 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 11:57:32 INFO  utilities.LoggerUtil - For Today
+2026-10-21 11:58:21 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 11:58:21 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 11:58:41 INFO  utilities.LoggerUtil - For Today
+2026-10-21 11:59:27 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 769
+2026-10-21 11:59:50 INFO  utilities.LoggerUtil - Total plans on listing = 772
+2026-10-21 11:59:56 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 12:06:32 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 12:06:32 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 12:06:53 INFO  utilities.LoggerUtil - For Today
+2026-10-21 12:07:41 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 12:08:17 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 12:08:17 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 12:08:36 INFO  utilities.LoggerUtil - For Today
+2026-10-21 12:09:20 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 828
+2026-10-21 12:09:42 INFO  utilities.LoggerUtil - Total plans on listing = 829
+2026-10-21 12:09:49 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 12:10:52 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 12:12:14 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 12:12:14 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 12:12:35 INFO  utilities.LoggerUtil - For Today
+2026-10-21 12:13:26 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 849
+2026-10-21 12:13:48 INFO  utilities.LoggerUtil - Total plans on listing = 849
+2026-10-21 12:13:54 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 12:19:10 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 12:19:10 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 12:19:30 INFO  utilities.LoggerUtil - For Today
+2026-10-21 12:20:16 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 909
+2026-10-21 12:20:40 INFO  utilities.LoggerUtil - Total plans on listing = 910
+2026-10-21 12:20:46 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 12:24:53 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 12:24:53 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 12:25:13 INFO  utilities.LoggerUtil - For Today
+2026-10-21 12:25:56 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 948
+2026-10-21 12:26:19 INFO  utilities.LoggerUtil - Total plans on listing = 950
+2026-10-21 12:26:35 INFO  utilities.LoggerUtil - Total plans in export =954
+2026-10-21 12:26:35 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 12:27:14 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 12:27:42 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 26472
+2026-10-21 12:27:59 INFO  utilities.LoggerUtil - Total plans on listing = 26473
+2026-10-21 12:28:15 INFO  utilities.LoggerUtil - For This Month
+2026-10-21 12:28:30 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 133099
+2026-10-21 12:28:35 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 12:29:38 INFO  utilities.LoggerUtil - For Last Month
+2026-10-21 12:30:22 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-21 12:31:00 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-21 12:36:18 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 12:36:18 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 12:36:18 INFO  utilities.LoggerUtil - For Today
+2026-10-21 12:36:28 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 1020
+2026-10-21 12:36:47 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 12:37:46 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 12:38:17 INFO  utilities.LoggerUtil - For This Month
+2026-10-21 12:38:25 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 12:38:33 INFO  utilities.LoggerUtil - For Last Month
+2026-10-21 12:38:41 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-21 12:38:49 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-21 12:48:04 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 12:48:04 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 12:48:25 INFO  utilities.LoggerUtil - For Today
+2026-10-21 12:49:31 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 12:50:10 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 12:50:48 INFO  utilities.LoggerUtil - For This Month
+2026-10-21 12:51:27 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 12:52:06 INFO  utilities.LoggerUtil - For Last Month
+2026-10-21 12:52:44 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-21 12:53:23 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-21 13:00:11 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 13:00:11 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 13:00:31 INFO  utilities.LoggerUtil - For Today
+2026-10-21 13:01:15 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 1226
+2026-10-21 13:01:38 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-21 13:01:53 INFO  utilities.LoggerUtil - Total plans in export =1241
+2026-10-21 13:01:54 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 13:02:10 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 14110
+2026-10-21 13:02:27 INFO  utilities.LoggerUtil - Total plans on listing = 14110
+2026-10-21 13:02:44 INFO  utilities.LoggerUtil - Total plans in export =14130
+2026-10-21 13:02:45 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 13:02:57 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 26758
+2026-10-21 13:03:14 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-21 13:03:38 INFO  utilities.LoggerUtil - For This Month
+2026-10-21 13:04:43 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 13:05:37 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 73293
+2026-10-21 13:05:59 INFO  utilities.LoggerUtil - Total plans on listing = 73293
+2026-10-21 13:06:15 INFO  utilities.LoggerUtil - Total plans in export =73316
+2026-10-21 13:06:19 INFO  utilities.LoggerUtil - For Last Month
+2026-10-21 13:06:35 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 85883
+2026-10-21 13:06:43 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-21 13:07:47 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-21 13:18:13 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 13:18:13 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 13:18:34 INFO  utilities.LoggerUtil - For Today
+2026-10-21 13:19:16 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 1411
+2026-10-21 13:19:50 INFO  utilities.LoggerUtil - Total plans on listing = 1414
+2026-10-21 13:20:13 INFO  utilities.LoggerUtil - Total plans in export =1426
+2026-10-21 13:20:14 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 13:20:28 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 14110
+2026-10-21 13:20:54 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-21 13:21:13 INFO  utilities.LoggerUtil - Total plans in export =14130
+2026-10-21 13:21:13 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 13:21:28 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 26937
+2026-10-21 13:21:55 INFO  utilities.LoggerUtil - Total plans on listing = 26942
+2026-10-21 13:22:10 INFO  utilities.LoggerUtil - Total plans in export =26984
+2026-10-21 13:22:11 INFO  utilities.LoggerUtil - For This Month
+2026-10-21 13:22:30 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 133569
+2026-10-21 13:22:35 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 13:23:42 INFO  utilities.LoggerUtil - For Last Month
+2026-10-21 13:24:46 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-21 13:25:49 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-21 14:09:19 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:09:19 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:09:40 INFO  utilities.LoggerUtil - For Today
+2026-10-21 14:10:38 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 14:11:12 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 14110
+2026-10-21 14:11:43 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-21 14:12:00 INFO  utilities.LoggerUtil - Total plans in export =14130
+2026-10-21 14:12:01 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 14:12:34 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:12:34 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:12:55 INFO  utilities.LoggerUtil - For Today
+2026-10-21 14:13:38 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 1842
+2026-10-21 14:14:09 INFO  utilities.LoggerUtil - Total plans on listing = 1844
+2026-10-21 14:14:37 INFO  utilities.LoggerUtil - Total plans in export =1857
+2026-10-21 14:14:39 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 14:14:53 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 14110
+2026-10-21 14:15:20 INFO  utilities.LoggerUtil - Total plans on listing = 14110
+2026-10-21 14:15:38 INFO  utilities.LoggerUtil - Total plans in export =14130
+2026-10-21 14:15:39 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 14:15:54 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 27368
+2026-10-21 14:16:21 INFO  utilities.LoggerUtil - Total plans on listing = 27368
+2026-10-21 14:16:38 INFO  utilities.LoggerUtil - For This Month
+2026-10-21 14:16:53 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 133992
+2026-10-21 14:17:01 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 14:18:15 INFO  utilities.LoggerUtil - For Last Month
+2026-10-21 14:18:36 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 85883
+2026-10-21 14:18:44 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-21 14:19:26 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-21 14:21:06 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:21:06 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:21:27 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 14:22:46 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:22:46 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:23:06 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 14:23:56 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 14110
+2026-10-21 14:24:28 INFO  utilities.LoggerUtil - Total plans on listing = 0
+2026-10-21 14:24:44 INFO  utilities.LoggerUtil - Total plans in export =14130
+2026-10-21 14:32:55 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:32:55 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:33:14 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 14:34:54 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:34:54 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:35:14 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-21 14:36:03 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 14110
+2026-10-21 14:36:37 INFO  utilities.LoggerUtil - Total plans on listing = 14110
+2026-10-21 14:36:58 INFO  utilities.LoggerUtil - Total plans in export =14130
+2026-10-21 14:38:19 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:38:19 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:38:39 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 14:44:36 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:44:36 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:44:37 INFO  utilities.LoggerUtil - For This Week
+2026-10-21 14:44:46 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 27826
+2026-10-21 14:45:16 INFO  utilities.LoggerUtil - Total plans on listing = 27829
+2026-10-21 14:45:36 INFO  utilities.LoggerUtil - Total plans in export =0
+2026-10-21 14:48:14 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:48:14 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:48:14 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 14:48:27 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 73293
+2026-10-21 14:49:03 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:49:03 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:49:03 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 14:49:43 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:49:43 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:49:43 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 14:49:54 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 73293
+2026-10-21 14:50:34 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:50:34 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:50:35 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 14:50:46 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 73293
+2026-10-21 14:53:51 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:53:51 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:53:52 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 14:54:06 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 73293
+2026-10-21 14:57:42 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 14:57:42 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 14:57:42 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 14:57:53 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 73293
+2026-10-21 14:59:23 INFO  utilities.LoggerUtil - Total plans on listing = 73293
+2026-10-21 14:59:43 INFO  utilities.LoggerUtil - Total plans in export =73316
+2026-10-21 15:02:51 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-21 15:02:51 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-21 15:02:52 INFO  utilities.LoggerUtil - For Last Week
+2026-10-21 15:03:07 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 73293
+2026-10-21 15:04:45 INFO  utilities.LoggerUtil - Total plans on listing = 73293
+2026-10-21 15:05:05 INFO  utilities.LoggerUtil - Total plans in export =73316
+2026-10-22 09:42:44 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-22 09:42:44 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-22 09:42:44 INFO  utilities.LoggerUtil - For Last Week
+2026-10-22 09:42:55 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 73301
+2026-10-22 09:44:45 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-22 09:44:45 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-22 09:44:45 INFO  utilities.LoggerUtil - For Today
+2026-10-22 09:44:54 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 399
+2026-10-22 09:46:23 INFO  utilities.LoggerUtil - Total plans on listing = 400
+2026-10-22 09:46:33 INFO  utilities.LoggerUtil - Total plans in export =400
+2026-10-22 09:46:34 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-22 09:46:42 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 6797
+2026-10-22 09:47:09 INFO  utilities.LoggerUtil - Total plans on listing = 6797
+2026-10-22 09:47:19 INFO  utilities.LoggerUtil - Total plans in export =6806
+2026-10-22 09:47:19 INFO  utilities.LoggerUtil - For This Week
+2026-10-22 09:47:28 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 32736
+2026-10-22 09:47:54 INFO  utilities.LoggerUtil - Total plans on listing = 32736
+2026-10-22 09:48:05 INFO  utilities.LoggerUtil - For This Month
+2026-10-22 09:49:13 INFO  utilities.LoggerUtil - For Last Week
+2026-10-22 09:50:22 INFO  utilities.LoggerUtil - For Last Month
+2026-10-22 09:51:30 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-22 09:52:39 INFO  utilities.LoggerUtil - For Last FY 25-26
+2026-10-22 10:10:15 INFO  utilities.LoggerUtil - Email is : samridhi@garantie.in
+2026-10-22 10:10:15 INFO  utilities.LoggerUtil - Password is : Samridhi@123
+2026-10-22 10:10:15 INFO  utilities.LoggerUtil - For Today
+2026-10-22 10:10:24 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 412
+2026-10-22 10:11:53 INFO  utilities.LoggerUtil - Total plans on listing = 412
+2026-10-22 10:12:04 INFO  utilities.LoggerUtil - Total plans in export =412
+2026-10-22 10:12:04 INFO  utilities.LoggerUtil - For Yesterday
+2026-10-22 10:12:13 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 6797
+2026-10-22 10:12:39 INFO  utilities.LoggerUtil - Total plans on listing = 6797

@@ -1,0 +1,13 @@
+browser=chrome
+claim-url=https://admin-portal.garantie.in/
+
+
+email= samridhi@garantie.in
+password = Samridhi@123
+
+
+headless=False
+incognito=False
+
+
+highlight=true
