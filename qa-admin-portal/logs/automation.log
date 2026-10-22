@@ -1009,3 +1009,11 @@
 2026-10-22 10:12:04 INFO  utilities.LoggerUtil - For Yesterday
 2026-10-22 10:12:13 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 6797
 2026-10-22 10:12:39 INFO  utilities.LoggerUtil - Total plans on listing = 6797
+2026-10-22 10:12:49 INFO  utilities.LoggerUtil - Total plans in export =6806
+2026-10-22 10:12:49 INFO  utilities.LoggerUtil - For This Week
+2026-10-22 10:13:01 INFO  utilities.LoggerUtil - Plan sold count on dashboard = 32748
+2026-10-22 10:13:01 INFO  utilities.LoggerUtil - For This Month
+2026-10-22 10:14:09 INFO  utilities.LoggerUtil - For Last Week
+2026-10-22 10:15:18 INFO  utilities.LoggerUtil - For Last Month
+2026-10-22 10:16:26 INFO  utilities.LoggerUtil - For This FY 26-27
+2026-10-22 10:17:34 INFO  utilities.LoggerUtil - For Last FY 25-26

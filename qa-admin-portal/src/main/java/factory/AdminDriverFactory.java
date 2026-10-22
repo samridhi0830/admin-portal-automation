@@ -73,8 +73,8 @@ public class AdminDriverFactory {
 	public Properties initProp() {
 		claimProps=new Properties();
 		try {
-			//FileInputStream ip=new FileInputStream("./src/test/Resources/config/config.qa.properties");
-			FileInputStream ip=new FileInputStream("./src/test/Resources/config/config.prod.properties");
+			FileInputStream ip=new FileInputStream("./src/test/Resources/config/config.qa.properties");
+			//FileInputStream ip=new FileInputStream("./src/test/Resources/config/config.prod.properties");
 			//InputStream ip=getClass().getClassLoader().getResourceAsStream("config/claim.config.qa.properties");
 			claimProps.load(ip);
 		} catch (FileNotFoundException e) {
