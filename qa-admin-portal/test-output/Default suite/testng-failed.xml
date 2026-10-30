@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.PlanPageTest">
+      <class name="tests.planCountValidation">
         <methods>
+          <include name="dashageSetup"/>
           <include name="allPlanCountTest" invocation-numbers="0 1 2 3 4 5 6 7"/>
           <include name="tearDown"/>
-          <include name="dashageSetup"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- tests.PlanPageTest -->
+      </class> <!-- tests.planCountValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

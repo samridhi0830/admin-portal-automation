@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="constants.AppConstants"/>
     <fullyQualifiedTypeName name="utilities.LoggerUtil"/>
     <fullyQualifiedTypeName name="exceptions.FrameworkException"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
 </qualifiedTypeNameHistroy>

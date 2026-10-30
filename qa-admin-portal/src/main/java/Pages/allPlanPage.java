@@ -33,6 +33,7 @@ public class allPlanPage {
 	private By disabledNextBtn=By.xpath("//li[@class='ant-pagination-next ant-pagination-disabled']");
 	private By exportSuccessMsg=By.xpath("//div[text()='Data Exported Successfully']");
 	private By exportFailedMsg=By.xpath("//div[text()='Data Export Failed']");
+	private By dateDropDown=By.xpath("//a[@class='ant-dropdown-trigger customBtn']");
 	
 	
 	public int getPlanCount() throws InterruptedException {
@@ -94,6 +95,14 @@ public class allPlanPage {
 	            }
 	        }
 	    }
+	}
+	
+	
+	public void selectDateFilter(String date) throws InterruptedException {
+		Thread.sleep(8000);
+		eleUtil.safeClick(dateDropDown);
+		By Date=By.xpath("//li//span//p[text()='"+date+"']");
+		eleUtil.safeClick(Date);
 	}
 	
 	public void clickExportBtn(String date) throws InterruptedException {

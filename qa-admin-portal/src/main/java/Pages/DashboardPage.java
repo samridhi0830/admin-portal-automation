@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import constants.AppConstants;
 import utilities.ElementUtils;
 import utilities.LoggerUtil;
+import utilities.TabManager;
 
 public class DashboardPage {
 
@@ -27,6 +28,9 @@ public class DashboardPage {
 	private By dateDropDown=By.xpath("//a[@class='ant-dropdown-trigger customBtn']");
 	private By plans=By.xpath("//span[@class='ant-menu-title-content' and text()='Plans']");
 	private By allPlans=By.xpath("//span[@class='ant-menu-title-content' and text()='All Plans']");
+	private By reports=By.xpath("//span[text()='Reports']");
+	private By claims=By.xpath("//span[text()='Claims']");
+	private By allClaims=By.xpath("//span[text()='All Claims']");
 	
 	
 	
@@ -46,6 +50,9 @@ public class DashboardPage {
 		
 		
 	}
+	
+	
+	
 	
 	public void selectDateFilter(String date) throws InterruptedException {
 		Thread.sleep(8000);
@@ -84,5 +91,32 @@ public class DashboardPage {
 		
 	}
 	
+	public allPlanPage openAllPlansInNewTab(String allPlansUrl) {
+
+        TabManager.openNewTab(
+                driver,
+                "AllPlans",
+                allPlansUrl);
+
+        return new allPlanPage(driver);
+    }
+	
+	public allClaimsPage movetoAllClaimsPage() throws InterruptedException {
+		List<WebElement> l1=eleUtil.getElements(allClaims);
+		if(l1.size()==0) {
+		eleUtil.doClick(claims);
+		Thread.sleep(3000);
+		eleUtil.doClick(allClaims);
+		}
+		if(l1.size()!=0) {
+			eleUtil.doClick(allClaims);
+		}
+		return new allClaimsPage(driver);
+	}
+	
+	public reportsPage moveToReportsPage() {
+		eleUtil.doClick(reports);
+		return new reportsPage(driver);
+	}
 	
 }

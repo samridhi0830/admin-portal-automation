@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="8" passed="0" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-22T09:44:39 IST" name="admin Portal Automation Suite" finished-at="2026-10-22T09:53:47 IST" duration-ms="547507">
+  <suite started-at="2026-10-29T10:58:32 IST" name="Default suite" finished-at="2026-10-29T11:08:08 IST" duration-ms="576093">
     <groups>
     </groups>
-    <test started-at="2026-10-22T09:44:39 IST" name="Number of plan comperison" finished-at="2026-10-22T09:53:47 IST" duration-ms="547507">
-      <class name="tests.PlanPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:44:39 IST" name="setup" finished-at="2026-10-22T09:44:44 IST" duration-ms="4873" status="PASS">
+    <test started-at="2026-10-29T10:58:32 IST" name="Default test" finished-at="2026-10-29T11:08:08 IST" duration-ms="576093">
+      <class name="tests.planCountValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T10:58:32 IST" name="setup" finished-at="2026-10-29T10:58:39 IST" duration-ms="6686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="dashageSetup()[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:44:44 IST" name="dashageSetup" finished-at="2026-10-22T09:44:45 IST" duration-ms="683" status="PASS">
+        <test-method is-config="true" signature="dashageSetup()[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T10:58:39 IST" name="dashageSetup" finished-at="2026-10-29T10:58:45 IST" duration-ms="6173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashageSetup -->
-        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:44:45 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-22T09:46:33 IST" duration-ms="108587" status="FAIL">
+        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T10:58:45 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-29T10:59:35 IST" duration-ms="50362" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
-at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:61)
+at tests.planCountValidation.allPlanCountTest(planCountValidation.java:130)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -47,19 +47,25 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allPlanCountTest -->
-        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:46:34 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-22T09:47:19 IST" duration-ms="45323" status="FAIL">
+        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T10:59:35 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-29T11:00:27 IST" duration-ms="51400" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -76,7 +82,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
-at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:61)
+at tests.planCountValidation.allPlanCountTest(planCountValidation.java:130)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -91,19 +97,25 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allPlanCountTest -->
-        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:47:19 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-22T09:48:05 IST" duration-ms="45608" status="FAIL">
+        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T11:00:27 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-29T11:01:17 IST" duration-ms="50673" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -117,8 +129,8 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.RuntimeException: CSV file not found!
-at Pages.allPlanPage.getPlanCountFromCSV(allPlanPage.java:119)
-at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:50)
+at Pages.allPlanPage.getPlanCountFromCSV(allPlanPage.java:128)
+at tests.planCountValidation.allPlanCountTest(planCountValidation.java:120)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -133,19 +145,25 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allPlanCountTest -->
-        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:48:05 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-22T09:49:13 IST" duration-ms="68469" status="FAIL">
+        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T11:01:17 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-29T11:02:34 IST" duration-ms="76597" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -153,29 +171,14 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+          <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class='topCard'])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class='topCard'])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '21.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08]]>
+              <![CDATA[CSV file not found!]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class='topCard'])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class='topCard'])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '21.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-at Pages.DashboardPage.planSold(DashboardPage.java:70)
-at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
+              <![CDATA[java.lang.RuntimeException: CSV file not found!
+at Pages.allPlanPage.getPlanCountFromCSV(allPlanPage.java:128)
+at tests.planCountValidation.allPlanCountTest(planCountValidation.java:120)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -190,19 +193,25 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allPlanCountTest -->
-        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:49:13 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-22T09:50:21 IST" duration-ms="68486" status="FAIL">
+        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T11:02:34 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-29T11:03:53 IST" duration-ms="78635" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -212,27 +221,27 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class='topCard'])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class='topCard'])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //a[@class='ant-dropdown-trigger customBtn'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='ant-dropdown-trigger customBtn'].
+(tried for 30 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '21.0.10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class='topCard'])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class='topCard'])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class='ant-dropdown-trigger customBtn'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='ant-dropdown-trigger customBtn'].
+(tried for 30 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '21.0.10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-at Pages.DashboardPage.planSold(DashboardPage.java:70)
-at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
+at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -247,19 +256,25 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allPlanCountTest -->
-        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:50:22 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-22T09:51:30 IST" duration-ms="68395" status="FAIL">
+        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T11:03:53 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-29T11:05:19 IST" duration-ms="85988" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -269,27 +284,27 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class='topCard'])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class='topCard'])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //a[@class='ant-dropdown-trigger customBtn'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='ant-dropdown-trigger customBtn'].
+(tried for 30 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '21.0.10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class='topCard'])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class='topCard'])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class='ant-dropdown-trigger customBtn'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='ant-dropdown-trigger customBtn'].
+(tried for 30 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '21.0.10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-at Pages.DashboardPage.planSold(DashboardPage.java:70)
-at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
+at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -304,19 +319,25 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allPlanCountTest -->
-        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:51:30 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-22T09:52:38 IST" duration-ms="68555" status="FAIL">
+        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T11:05:19 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-29T11:06:43 IST" duration-ms="84717" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -326,27 +347,27 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class='topCard'])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class='topCard'])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //a[@class='ant-dropdown-trigger customBtn'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='ant-dropdown-trigger customBtn'].
+(tried for 30 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '21.0.10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class='topCard'])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class='topCard'])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class='ant-dropdown-trigger customBtn'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='ant-dropdown-trigger customBtn'].
+(tried for 30 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '21.0.10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-at Pages.DashboardPage.planSold(DashboardPage.java:70)
-at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
+at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -361,19 +382,25 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allPlanCountTest -->
-        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:52:39 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-22T09:53:47 IST" duration-ms="68134" status="FAIL">
+        <test-method signature="allPlanCountTest(java.lang.String)[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T11:06:43 IST" name="allPlanCountTest" data-provider="dateSelectFilter" finished-at="2026-10-29T11:08:08 IST" duration-ms="84564" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -388,8 +415,8 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '21.0.10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class='ant-dropdown-trigger customBtn'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='ant-dropdown-trigger customBtn'].
@@ -397,13 +424,13 @@ Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08]]>
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '21.0.10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-at Pages.DashboardPage.selectDateFilter(DashboardPage.java:52)
-at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -418,23 +445,29 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allPlanCountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PlanPageTest@46d59067]" started-at="2026-10-22T09:53:47 IST" name="tearDown" finished-at="2026-10-22T09:53:47 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.planCountValidation@1f9e9475]" started-at="2026-10-29T11:08:08 IST" name="tearDown" finished-at="2026-10-29T11:08:08 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.PlanPageTest -->
-    </test> <!-- Number of plan comperison -->
-  </suite> <!-- admin Portal Automation Suite -->
+      </class> <!-- tests.planCountValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

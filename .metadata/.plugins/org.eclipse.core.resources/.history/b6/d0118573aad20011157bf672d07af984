@@ -1,0 +1,102 @@
+package tests;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import Base.BaseTest;
+import utilities.LoggerUtil;
+import utilities.TabManager;
+
+public class planCountValidation extends BaseTest{
+	
+	
+	int planSoldOnHomePageCard;
+	int planCountInListing;
+	int PlanCountInExport;
+	
+	@BeforeClass
+	public void dashageSetup() throws InterruptedException {
+		System.out.println("Current URL before login: " + driver.getCurrentUrl());
+	    dashPage = loginPage.doLogin(prop.getProperty("email"), prop.getProperty("password"));
+	    Thread.sleep(5000);
+	    TabManager.saveTab(driver,"Dashboard");
+	    planPage=dashPage.openAllPlansInNewTab(prop.getProperty("allPlansUrl"));
+	    
+	    }
+	
+	@DataProvider(name = "dateSelectFilter")
+	public Object[][] getPlanData() {
+	    return new Object[][] {
+	    	{"Today"},
+	    	/*{"Yesterday"},
+	    	{"This Week"},
+	    	{"This Month"},
+	    	{"Last Week"},
+	    	{"Last Month"},
+	    	{"This FY 26-27"},
+	    	{"Last FY 25-26"}*/
+	    };
+	}
+	
+	
+	@Test(dataProvider="dateSelectFilter")
+	public void allPlanCountOnDashboardTest(String date) throws InterruptedException, IOException {
+		LoggerUtil.info("For "+date);
+		TabManager.switchToTab(driver, "Dashboard");
+		dashPage.selectDateFilter(date);
+		planSoldOnHomePageCard=dashPage.planSold();
+		LoggerUtil.info("Total number of plans on dashboard total plan card= "+ planSoldOnHomePageCard);
+		
+		
+	}
+	
+	
+	@Test(dataProvider="dateSelectFilter")
+	public void allPlanCountInListingonPlnsPageTest(String date) throws InterruptedException, IOException {
+		LoggerUtil.info("For "+date);
+		TabManager.switchToTab(driver, "AllPlans");
+		planPage.selectDateFilter(date);
+		planCountInListing=planPage.getPlanCount();
+		LoggerUtil.info("Total number of plans in listing of all plans page= "+ planCountInListing);
+		
+		
+	}
+	
+	@Test(dataProvider="dateSelectFilter")
+	public void exportReportOnAllPlansPageTest(String date) throws InterruptedException, IOException {
+		planPage.clickExportBtn(date);
+		
+		LoggerUtil.info("Report exportes successfully");
+		
+		
+	}
+	
+	
+	@Test(dataProvider="dateSelectFilter")
+	public void TotalPlansInExportReportOnAllPlansPageTest(String date) throws InterruptedException, IOException {
+		PlanCountInExport=planPage.getPlanCountFromCSV();
+		
+		LoggerUtil.info("Total number of plans in export of all plans page= "+ PlanCountInExport);
+		
+		
+	}
+	
+	@Test(dataProvider="dateSelectFilter")
+	public void TotalPlanValidationTest(String date) throws InterruptedException, IOException {
+		Boolean flag;
+		if(planSoldOnHomePageCard==planCountInListing && PlanCountInExport==planSoldOnHomePageCard) {
+			flag=true;
+		}
+		else {
+			flag=false;
+		}
+		Assert.assertTrue(flag, "Not same");
+	}
+	
+	
+
+}

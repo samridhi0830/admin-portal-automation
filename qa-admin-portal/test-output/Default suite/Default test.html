@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/8/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 15 12:11:20 IST 2026</td>
+<td>Started on:</td><td>Thu Oct 29 10:58:32 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>368 seconds (368469 ms)</td>
+<tr><td>Total time:</td><td>576 seconds (576093 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Today</td>
-<td><div><pre>exceptions.FrameworkException: Export not completed.
-	at Pages.allPlanPage.clickExportBtn(allPlanPage.java:112)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:45)
+<td title='tests.planCountValidation.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.planCountValidation<br>Parameters: This Month</td>
+<td><div><pre>java.lang.RuntimeException: CSV file not found!
+	at Pages.allPlanPage.getPlanCountFromCSV(allPlanPage.java:128)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:120)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -106,10 +106,10 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1153511683", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1153511683'><pre>exceptions.FrameworkException: Export not completed.
-	at Pages.allPlanPage.clickExportBtn(allPlanPage.java:112)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:45)
+</pre></div><a href='#' onClick='toggleBox("stack-trace630642676", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace630642676'><pre>java.lang.RuntimeException: CSV file not found!
+	at Pages.allPlanPage.getPlanCountFromCSV(allPlanPage.java:128)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:120)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -137,22 +137,22 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>64</td>
-<td>tests.PlanPageTest@1f9e9475</td></tr>
+<td>76</td>
+<td>tests.planCountValidation@1f9e9475</td></tr>
 <tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: This Month</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;This Month&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;This Month&apos;]&quot;}.
+<td title='tests.planCountValidation.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.planCountValidation<br>Parameters: Last Week</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
 (tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -179,19 +179,19 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1706027885", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1706027885'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;This Month&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;This Month&apos;]&quot;}.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1600330912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1600330912'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
 (tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -219,22 +219,15 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>39</td>
-<td>tests.PlanPageTest@1f9e9475</td></tr>
+<td>78</td>
+<td>tests.planCountValidation@1f9e9475</td></tr>
 <tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Last Month</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;Last Month&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;Last Month&apos;]&quot;}.
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+<td title='tests.planCountValidation.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.planCountValidation<br>Parameters: Today</td>
+<td><div><pre>java.lang.AssertionError: Not same expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:130)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -261,19 +254,12 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2133612542", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2133612542'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;Last Month&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;Last Month&apos;]&quot;}.
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+</pre></div><a href='#' onClick='toggleBox("stack-trace777236628", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace777236628'><pre>java.lang.AssertionError: Not same expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:130)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -301,22 +287,15 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>38</td>
-<td>tests.PlanPageTest@1f9e9475</td></tr>
+<td>50</td>
+<td>tests.planCountValidation@1f9e9475</td></tr>
 <tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: This Week</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;This Week&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;This Week&apos;]&quot;}.
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+<td title='tests.planCountValidation.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.planCountValidation<br>Parameters: Yesterday</td>
+<td><div><pre>java.lang.AssertionError: Not same expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:130)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -343,19 +322,12 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1764604500", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1764604500'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;This Week&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;This Week&apos;]&quot;}.
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+</pre></div><a href='#' onClick='toggleBox("stack-trace65305091", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace65305091'><pre>java.lang.AssertionError: Not same expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:130)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -383,22 +355,22 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>40</td>
-<td>tests.PlanPageTest@1f9e9475</td></tr>
+<td>51</td>
+<td>tests.planCountValidation@1f9e9475</td></tr>
 <tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Yesterday</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;Yesterday&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;Yesterday&apos;]&quot;}.
+<td title='tests.planCountValidation.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.planCountValidation<br>Parameters: This FY 26-27</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
 (tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -425,19 +397,19 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace729375394", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace729375394'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;Yesterday&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;Yesterday&apos;]&quot;}.
+</pre></div><a href='#' onClick='toggleBox("stack-trace583351682", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace583351682'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
 (tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -465,22 +437,22 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>38</td>
-<td>tests.PlanPageTest@1f9e9475</td></tr>
+<td>84</td>
+<td>tests.planCountValidation@1f9e9475</td></tr>
 <tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Last Week</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;Last Week&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;Last Week&apos;]&quot;}.
+<td title='tests.planCountValidation.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.planCountValidation<br>Parameters: Last FY 25-26</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
 (tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -507,19 +479,19 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace409832049", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace409832049'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;Last Week&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;Last Week&apos;]&quot;}.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1188871851", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1188871851'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
 (tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -547,22 +519,13 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>38</td>
-<td>tests.PlanPageTest@1f9e9475</td></tr>
+<td>84</td>
+<td>tests.planCountValidation@1f9e9475</td></tr>
 <tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: This FY 26-27</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;This FY 26-27&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;This FY 26-27&apos;]&quot;}.
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+<td title='tests.planCountValidation.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.planCountValidation<br>Parameters: This Week</td>
+<td><div><pre>java.lang.RuntimeException: CSV file not found!
+	at Pages.allPlanPage.getPlanCountFromCSV(allPlanPage.java:128)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:120)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -589,19 +552,10 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace220588152", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace220588152'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;This FY 26-27&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;This FY 26-27&apos;]&quot;}.
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+</pre></div><a href='#' onClick='toggleBox("stack-trace765329253", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace765329253'><pre>java.lang.RuntimeException: CSV file not found!
+	at Pages.allPlanPage.getPlanCountFromCSV(allPlanPage.java:128)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:120)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -629,22 +583,22 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>38</td>
-<td>tests.PlanPageTest@1f9e9475</td></tr>
+<td>50</td>
+<td>tests.planCountValidation@1f9e9475</td></tr>
 <tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Last FY 25-26</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;Last FY 25-26&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;Last FY 25-26&apos;]&quot;}.
+<td title='tests.planCountValidation.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.planCountValidation<br>Parameters: Last Month</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
 (tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -671,19 +625,19 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace21491673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace21491673'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //li//span//p[text()=&apos;Last FY 25-26&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li//span//p[text()=&apos;Last FY 25-26&apos;]&quot;}.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1623287356", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1623287356'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
 (tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: /var/folders/16/3f2_7kfx3k1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51384}, goog:processID: 16154, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51384/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69ca5224efe4d50cbcf87703821eda68
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 14068, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 41dfa2eb-5b4d-4c90-937a-29a84e1bf301
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:54)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at Pages.allPlanPage.selectDateFilter(allPlanPage.java:103)
+	at tests.planCountValidation.allPlanCountTest(planCountValidation.java:111)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -711,8 +665,8 @@ Session ID: 69ca5224efe4d50cbcf87703821eda68
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>38</td>
-<td>tests.PlanPageTest@1f9e9475</td></tr>
+<td>85</td>
+<td>tests.planCountValidation@1f9e9475</td></tr>
 </table><p>
 </body>
 </html>

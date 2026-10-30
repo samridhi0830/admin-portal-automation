@@ -1,0 +1,15 @@
+browser=firefox
+claim-url=https://admin-portal.garantie.in/
+
+allPlansUrl = claim-url + "admin/plans/all-plans";
+
+
+email= samridhi@garantie.in
+password = Samridhi@123
+
+
+headless=False
+incognito=False
+
+
+highlight=true

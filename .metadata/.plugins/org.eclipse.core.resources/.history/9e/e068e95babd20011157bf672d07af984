@@ -1,0 +1,13 @@
+browser=chrome
+claim-url=https://qa-admin-portal.garantie.in/
+allPlansUrl = claim-url + "admin/plans/all-plans";
+
+email= admin@garantie.in
+password = Garantie@2
+
+
+headless=False
+incognito=False
+
+
+highlight=true

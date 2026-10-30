@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/8/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 22 09:44:39 IST 2026</td>
+<td>Started on:</td><td>Fri Oct 23 10:30:42 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>547 seconds (547507 ms)</td>
+<tr><td>Total time:</td><td>508 seconds (508167 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,19 +76,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Last Week</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class=&apos;topCard&apos;])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class=&apos;topCard&apos;])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
+<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Last Month</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
+(tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 65645, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: c8c85f9c-7248-4d36-8091-21db7e6bd485
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-	at Pages.DashboardPage.planSold(DashboardPage.java:70)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
+	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:58)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -109,19 +109,19 @@ Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1709862328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1709862328'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class=&apos;topCard&apos;])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class=&apos;topCard&apos;])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1636730686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1636730686'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
+(tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 65645, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: c8c85f9c-7248-4d36-8091-21db7e6bd485
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-	at Pages.DashboardPage.planSold(DashboardPage.java:70)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
+	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:58)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -146,19 +146,19 @@ Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
 <td>68</td>
 <td>tests.PlanPageTest@46d59067</td></tr>
 <tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: This FY 26-27</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class=&apos;topCard&apos;])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class=&apos;topCard&apos;])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
+<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Last Week</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
+(tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 65645, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: c8c85f9c-7248-4d36-8091-21db7e6bd485
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-	at Pages.DashboardPage.planSold(DashboardPage.java:70)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
+	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:58)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -179,19 +179,143 @@ Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2050149825", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2050149825'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class=&apos;topCard&apos;])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class=&apos;topCard&apos;])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
+</pre></div><a href='#' onClick='toggleBox("stack-trace201759380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace201759380'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
+(tried for 30 seconds with 500 milliseconds interval)
 Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 65645, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: c8c85f9c-7248-4d36-8091-21db7e6bd485
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-	at Pages.DashboardPage.planSold(DashboardPage.java:70)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
+	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:58)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>75</td>
+<td>tests.PlanPageTest@46d59067</td></tr>
+<tr>
+<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: This Month</td>
+<td><div><pre>exceptions.FrameworkException: Failed to click element after retries: By.xpath: //span[@class=&apos;ant-menu-title-content&apos; and text()=&apos;All Plans&apos;]
+	at utilities.ElementUtils.safeClick(ElementUtils.java:55)
+	at Pages.DashboardPage.moveToPlansPage(DashboardPage.java:88)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1464755501", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1464755501'><pre>exceptions.FrameworkException: Failed to click element after retries: By.xpath: //span[@class=&apos;ant-menu-title-content&apos; and text()=&apos;All Plans&apos;]
+	at utilities.ElementUtils.safeClick(ElementUtils.java:55)
+	at Pages.DashboardPage.moveToPlansPage(DashboardPage.java:88)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>13</td>
+<td>tests.PlanPageTest@46d59067</td></tr>
+<tr>
+<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: This FY 26-27</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 65645, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: c8c85f9c-7248-4d36-8091-21db7e6bd485
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:58)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div><a href='#' onClick='toggleBox("stack-trace33537770", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace33537770'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 65645, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: c8c85f9c-7248-4d36-8091-21db7e6bd485
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:58)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -242,8 +366,8 @@ Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2020745207", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2020745207'><pre>java.lang.AssertionError: Not same expected [true] but found [false]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1439610952", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1439610952'><pre>java.lang.AssertionError: Not same expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
@@ -272,6 +396,76 @@ Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
 <td>108</td>
 <td>tests.PlanPageTest@46d59067</td></tr>
 <tr>
+<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Last FY 25-26</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 65645, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: c8c85f9c-7248-4d36-8091-21db7e6bd485
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:58)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div><a href='#' onClick='toggleBox("stack-trace632644323", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace632644323'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 65645, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: c8c85f9c-7248-4d36-8091-21db7e6bd485
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
+	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:58)
+	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>68</td>
+<td>tests.PlanPageTest@46d59067</td></tr>
+<tr>
 <td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: This Week</td>
 <td><div><pre>java.lang.RuntimeException: CSV file not found!
 	at Pages.allPlanPage.getPlanCountFromCSV(allPlanPage.java:119)
@@ -296,8 +490,8 @@ Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div><a href='#' onClick='toggleBox("stack-trace291789841", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace291789841'><pre>java.lang.RuntimeException: CSV file not found!
+</pre></div><a href='#' onClick='toggleBox("stack-trace1548996427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1548996427'><pre>java.lang.RuntimeException: CSV file not found!
 	at Pages.allPlanPage.getPlanCountFromCSV(allPlanPage.java:119)
 	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:50)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -322,76 +516,6 @@ Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 </pre></div></td>
 <td>45</td>
-<td>tests.PlanPageTest@46d59067</td></tr>
-<tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Last Month</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class=&apos;topCard&apos;])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class=&apos;topCard&apos;])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-	at Pages.DashboardPage.planSold(DashboardPage.java:70)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1054234480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1054234480'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class=&apos;topCard&apos;])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class=&apos;topCard&apos;])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-	at Pages.DashboardPage.planSold(DashboardPage.java:70)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>68</td>
 <td>tests.PlanPageTest@46d59067</td></tr>
 <tr>
 <td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Yesterday</td>
@@ -420,8 +544,8 @@ Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div><a href='#' onClick='toggleBox("stack-trace386262370", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace386262370'><pre>java.lang.AssertionError: Not same expected [true] but found [false]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1404979284", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1404979284'><pre>java.lang.AssertionError: Not same expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
@@ -448,146 +572,6 @@ Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 </pre></div></td>
 <td>45</td>
-<td>tests.PlanPageTest@46d59067</td></tr>
-<tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: Last FY 25-26</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:52)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1633829871", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1633829871'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;ant-dropdown-trigger customBtn&apos;].
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.safeClick(ElementUtils.java:46)
-	at Pages.DashboardPage.selectDateFilter(DashboardPage.java:52)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:38)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>68</td>
-<td>tests.PlanPageTest@46d59067</td></tr>
-<tr>
-<td title='tests.PlanPageTest.allPlanCountTest()'><b>allPlanCountTest</b><br>Test class: tests.PlanPageTest<br>Parameters: This Month</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class=&apos;topCard&apos;])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class=&apos;topCard&apos;])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-	at Pages.DashboardPage.planSold(DashboardPage.java:70)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div><a href='#' onClick='toggleBox("stack-trace682164774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace682164774'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: ((//div[@class=&apos;topCard&apos;])[1]//p)[2], but... org.openqa.selenium.NoSuchElementException: Unable to locate element: ((//div[@class=&apos;topCard&apos;])[1]//p)[2].
-(tried for 50 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.6.2&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 158.0.1, moz:accessibilityChecks: false, moz:buildID: 20261019185856, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 25.6.0, moz:processID: 55465, moz:profile: /var/folders/16/3f2_7kfx3k1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 70940400-08f5-4006-9c97-7e2ae41c1f08
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at utilities.ElementUtils.waitForVisibilityOfElement(ElementUtils.java:499)
-	at Pages.DashboardPage.planSold(DashboardPage.java:70)
-	at tests.PlanPageTest.allPlanCountTest(PlanPageTest.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>68</td>
 <td>tests.PlanPageTest@46d59067</td></tr>
 </table><p>
 </body>
