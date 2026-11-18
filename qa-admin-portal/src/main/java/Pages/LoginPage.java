@@ -8,45 +8,31 @@ import utilities.ElementUtils;
 import utilities.LoggerUtil;
 
 public class LoginPage {
-	private WebDriver driver;
-	private ElementUtils eleUtil;
-	
-	
-	
-	private By email=By.id("loginForm_email");
-	private By password=By.id("loginForm_password");
-	private By signInBtn= By.xpath("//button[@type='submit']");
-	
-	
-	
-	
-	
-	
-	public LoginPage(WebDriver driver) {
-		this.driver=driver;
-		eleUtil=new ElementUtils(this.driver);
-	}
-	
-	
+    private WebDriver driver;
+    private ElementUtils eleUtil;
 
-	public String getPageUrl() {
-		String url=eleUtil.waitForURLContains(AppConstants.LOGIN_PAGE_URL, AppConstants.SHORT_DEFAUTT_WAIT);
-		LoggerUtil.pass("Login page url is: "+ url);
-		return url;
-	}
+    private By email = By.id("loginForm_email");
+    private By password = By.id("loginForm_password");
+    private By signInBtn = By.xpath("//button[@type='submit']");
 
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+        eleUtil = new ElementUtils(this.driver);
+    }
 
-	public DashboardPage doLogin(String Email,String Password) {
-		// TODO Auto-generated method stub
-		LoggerUtil.info("Email is : "+ Email);
-		LoggerUtil.info("Password is : "+ Password);
-		eleUtil.waitForVisibilityOfElement(email, AppConstants.SHORT_DEFAUTT_WAIT).sendKeys(Email);
-		eleUtil.doSendKeys(password, Password);
-		eleUtil.getElement(signInBtn).click();
-		return new DashboardPage(driver);
-		//return null;
-	}
+    public String getPageUrl() {
+        String url = eleUtil.waitForURLContains(
+            AppConstants.LOGIN_PAGE_URL, AppConstants.SHORT_DEFAUTT_WAIT);
+        LoggerUtil.pass("Login page url is: " + url);
+        return url;
+    }
 
+    public DashboardPage doLogin(String Email, String Password) {
+        LoggerUtil.info("Submitting admin portal login form");
+        eleUtil.waitForVisibilityOfElement(
+            email, AppConstants.SHORT_DEFAUTT_WAIT).sendKeys(Email);
+        eleUtil.doSendKeys(password, Password);
+        eleUtil.getElement(signInBtn).click();
+        return new DashboardPage(driver);
+    }
 }
-
-
